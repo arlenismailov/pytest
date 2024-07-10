@@ -22,4 +22,4 @@ def test_divide(x, y, res):
         ]
 )
 def test_add(x, y, res):
-    assert Calculator().divide(x, y) == res
+    assert Calculator().add(x, y) == res
